@@ -38,6 +38,7 @@
     padding:0px;
     outline: none;
     color: #210052;
+    user-select: none;
 }
 
 body{
@@ -60,7 +61,7 @@ body{
 
 
 .CalcBody{
-    margin-top: 10px;
+    margin-top: -20px;
     width: 20%;
     overflow:hidden;
     height: 100%;
@@ -84,7 +85,7 @@ body{
 .CalcDisplay{
     width: 100%;
     margin-top: 20px;
-    resize: none;
+    resize:none;
     height: 100px;
     font-size:70px;
     outline: none;
@@ -97,7 +98,8 @@ body{
     box-shadow: 6px 6px 12px #c5c5c5,
                 -6px -6px 12px #ffffff;
 
-    margin-bottom: 2%;            
+    margin-bottom: 2%;   
+    user-select: text;         
 }
 
 .CalcDisplay:focus{
@@ -154,7 +156,30 @@ body{
 }
 
 
+.widerh1{
+    visibility: hidden;
+}
 
+
+
+@media screen and (min-width: 0px) and (max-width: 223px){
+    *{
+        visibility: hidden;
+    }
+    .widerh1{
+        visibility:visible;
+
+    }
+}
+
+@media screen and (min-width: 224px) and (max-width: 576px){
+    .spacecolumn{
+       width: 1%;
+    }
+    .CalcBody{
+        width: 98%;
+    }
+}
 
 @media screen and (min-width: 320px) and (max-width: 576px){
     .spacecolumn{
@@ -166,7 +191,7 @@ body{
 }
 
 
-@media screen and (min-width: 567px) and (max-width: 767px){
+@media screen and (min-width: 577px) and (max-width: 767px){
     .spacecolumn{
         width: 20%;
     }
