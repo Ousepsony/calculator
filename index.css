@@ -1,0 +1,21 @@
+/* Metadata */
+:root{
+    --red : #be185d;
+    --lightblue : #0ea5e9;
+    --darkblue : #0f172a;
+}
+
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    border: 0px;
+    outline: 0px;
+    padding: 0px;
+}
+
+body{
+    
+    background-color: rgb(236, 252, 203);
+    background-image: radial-gradient(at 20% 48%, rgb(3, 105, 161) 0, transparent 81%), radial-gradient(at 30% 34%, rgb(244, 244, 245) 0, transparent 4%);
+  
+}
