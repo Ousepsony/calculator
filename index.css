@@ -7,15 +7,23 @@
 
 *{
     box-sizing: border-box;
-    margin: 0px;
+    margin: 0px;    
     border: 0px;
     outline: 0px;
     padding: 0px;
 }
 
 body{
-    
-    background-color: rgb(236, 252, 203);
-    background-image: radial-gradient(at 20% 48%, rgb(3, 105, 161) 0, transparent 81%), radial-gradient(at 30% 34%, rgb(244, 244, 245) 0, transparent 4%);
-  
+    background-color:#0f172a;
+    background-image:
+    radial-gradient(at 8% 13%, hsla(199, 89%, 48%,0.7) 0px, transparent 50%),
+    radial-gradient(at 98% 93%, hsla(199, 89%, 48%,0.25) 0px, transparent 20%),
+    radial-gradient(at 50% 88%, hsla(335, 78%, 42%,0.2) 0px, transparent 50%);
+    background-position: center center;
+    background-repeat:no-repeat;
+    background-size: cover;
+}
+
+.content{
+    height: 100px;
 }
