@@ -7,6 +7,7 @@ function pageLoad(){
 }
 
 function pageResize(){
-    HTMLBody.style.height = window.innerHeight + "px";
     
+    HTMLBody.style.height = window.innerHeight + "px";
+
 }
