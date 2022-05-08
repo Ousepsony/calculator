@@ -8,4 +8,5 @@ function pageLoad(){
 
 function pageResize(){
     HTMLBody.style.height = window.innerHeight + "px";
+    
 }
