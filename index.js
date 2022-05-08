@@ -1,13 +1,15 @@
-var HTMLBody = document.querySelector("body");
+// var HTMLCalculatorHolder = document.querySelector(".calculator-holder");
 
-document.addEventListener("DOMContentLoaded",pageLoad);
-document.addEventListener("resize",pageResize);
-function pageLoad(){
-    HTMLBody.style.height = window.innerHeight + "px";
-}
+// window.addEventListener("DOMContentLoaded",pageLoad);
+// window.addEventListener("resize",pageresize);
 
-function pageResize(){
-    
-    HTMLBody.style.height = window.innerHeight + "px";
+// function pageLoad(){
+//     HTMLCalculatorHolder.style.height = window.innerHeight + " px";
+// }
 
-}
+// function pageresize(){
+//     console.log(window.innerHeight);
+//     HTMLCalculatorHolder.style.minHeight = window.innerHeight + " px";
+//     HTMLCalculatorHolder.style.minHeight = window.innerHeight + " px";
+
+// }
