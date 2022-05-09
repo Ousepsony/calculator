@@ -60,7 +60,10 @@ body{
     margin-top: 1%;
     height: 500px;
     border-color: aliceblue;
-
+    background-color: var(--sunset-red);
+    border: 5px solid #fb6542;
+    border-radius: 15px;
+    box-shadow: 7px 7px var(--sunset-red);
 }
 
 .calculator-input-holder{
@@ -74,12 +77,18 @@ body{
     min-height: 150%;
     max-height : 150%;
     border-radius: 15px;
-    padding: 10px;
-    font-size: 400%;
+    padding: 20px;
+    font-size: 300%;
     color: var(--sky-blue);
     font-family: plus-jakarta-sans-medium;
-    border: 5px solid black;
-    box-shadow: 7px 7px black;
+    border: 5px solid var(--sky-blue);
+    box-shadow: 7px 7px var(--sky-blue);
 
+}
+
+.calculator-interface-holder{
+    border: 1px solid blue;
+    margin: 1%;
+    margin-top: 3%;
 }
 
