@@ -13,9 +13,9 @@
     src: url(assets//plus-jakarta-sans/PlusJakartaSans-Regular.ttf);
 }
 :root{
-    --red : #be185d;
+    /* --red : #be185d;
     --lightblue : #0ea5e9;
-    --darkblue : #0f172a;
+    --darkblue : #0f172a; */
 
     --sky-blue: #375e97;
     --sunset-red: #fb6542;
@@ -54,16 +54,18 @@ body{
     font-family: recoleta;
     font-size: 50px;
     text-align: center;
+    color: var(--black);
 }
 
 .calculator-holder{
-    margin-top: 1%;
-    height: 500px;
+    margin-top: 3px;
+    /* height: 500px;    */
     border-color: aliceblue;
     background-color: var(--sunset-red);
-    border: 5px solid #fb6542;
+
     border-radius: 15px;
-    box-shadow: 7px 7px var(--sunset-red);
+    border: 5px solid var(--black);
+    box-shadow: 7px 7px var(--black);
 }
 
 .calculator-input-holder{
@@ -81,14 +83,35 @@ body{
     font-size: 300%;
     color: var(--sky-blue);
     font-family: plus-jakarta-sans-medium;
-    border: 5px solid var(--sky-blue);
-    box-shadow: 7px 7px var(--sky-blue);
+    border: 5px solid var(--black);
+    box-shadow: 7px 7px var(--black);
 
 }
 
 .calculator-interface-holder{
-    border: 1px solid blue;
+    border-radius: 15px;
+    border: 5px solid var(--black);
+    /* box-shadow: 7px 7px var(--black); */
     margin: 1%;
-    margin-top: 3%;
+    margin-top: 50px;
+    padding: 1%;
 }
 
+.calculator-interface-button{
+    display:inline-block;
+    margin-left: 1.2%;
+    margin-bottom: 15px;
+    width: 31%;
+    height:70px;
+
+    border-radius: 15px;
+    border: 5px solid var(--black);
+    box-shadow: 7px 7px var(--black);
+    
+    font-family: plus-jakarta-sans-medium;
+    font-size: 30px;
+}
+
+.calculator-interface-button:active{
+    background-color: #ffbb00;
+}
